@@ -6,8 +6,11 @@ class TestRoute extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Test Route 1"),
+      ),
+      body: const Center(
          child: Text('TestRoute'),
       ),
     );
